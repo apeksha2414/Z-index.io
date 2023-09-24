@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+
+<style>
+
+    .box{
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+        border-radius: 20px 0 20px 0;
+        opacity: 100%;
+        position: absolute;
+        top: 10vh;
+        left: 20vw;
+        /* z-index: 10; */
+    }
+
+    .box:hover{
+       background-color: rgb(79, 79, 129); 
+       border-radius: 0px 20px 0px 20px;
+    }
+
+
+
+</style>
+
+
+</head>
+<body>
+
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    
+</body>
+</html>
